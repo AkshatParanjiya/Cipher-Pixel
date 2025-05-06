@@ -11,9 +11,9 @@ function Navbar() {
         <Link to="/" className="text-xl font-bold text-blue-600">Cipher Pixel</Link>
        <div className='flex gap-200'>
        <div className="space-x-4 py-1 text-[18px]">
-          <NavLink to="/" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold border-b-3 b-purple-500' : 'text-gray-400'}>Home</NavLink>
-          <NavLink to="/embed" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold border-b-3 b-purple-500' : 'text-gray-400'}>Embed</NavLink>
-          <NavLink to="/extract" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold border-b-3 b-purple-500' : 'text-gray-400'}>Extract</NavLink>
+          <NavLink to="/" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold pb-2.5 border-b-4 b-purple-500' : 'text-gray-400'}>Home</NavLink>
+          <NavLink to="/embed" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold pb-2.5 border-b-4  b-purple-500' : 'text-gray-400'}>Embed</NavLink>
+          <NavLink to="/extract" className={({ isActive }) => isActive ? 'text-blue-500 font-semibold pb-2.5 border-b-4  b-purple-500' : 'text-gray-400'}>Extract</NavLink>
         </div>
 
         <div className="space-x-4  flex items-center  ">
